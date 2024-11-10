@@ -1,5 +1,4 @@
 from cli import CommandLine
-from agents import AGENTS
 
 # https://rlhflow.github.io/posts/2024-03-23-bradley-terry-reward-model/
 # https://arxiv.org/pdf/2406.12845
@@ -13,4 +12,3 @@ cli = CommandLine(LLM_BACKEND)
 
 while True:
     prompt, response = cli.prompt()
-
