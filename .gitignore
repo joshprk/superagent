@@ -3,3 +3,5 @@ flake.nix
 flake.lock
 
 .env
+
+__pycache__
