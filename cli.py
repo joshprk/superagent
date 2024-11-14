@@ -32,10 +32,8 @@ class CommandLine:
     def prompt(self):
         stdin = input(">>> ")
         if not len(stdin) > 0:
-            return None, None
+            return None
         elif stdin[0] == "/":
-            return None, None
-        
-        response = self.respond(stdin)
-        
-        return stdin, response
+            return None
+
+        return stdin
